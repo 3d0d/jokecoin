@@ -897,9 +897,9 @@ void PrintExceptionContinue(const std::exception_ptr pex, const char* pszExcepti
 
 fs::path GetDefaultDataDir()
 {
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\DashCore
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\DashCore
-    // Mac: ~/Library/Application Support/DashCore
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Jokecore
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Jokecore
+    // Mac: ~/Library/Application Support/Jokecore
     // Unix: ~/.jokecoincore
 #ifdef WIN32
     // Windows
