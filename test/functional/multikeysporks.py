@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # Copyright (c) 2018-2020 The Dash Core developers
+# Copyright (c) 2021 The Jokecoin developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 import time
@@ -12,8 +13,8 @@ multikeysporks.py
 
 Test logic for several signer keys usage for spork broadcast.
 
-We set 5 possible keys for sporks signing and set minimum 
-required signers to 3. We check 1 and 2 signers can't set the spork 
+We set 5 possible keys for sporks signing and set minimum
+required signers to 3. We check 1 and 2 signers can't set the spork
 value, any 3 signers can change spork value and other 3 signers
 can change it again.
 '''
